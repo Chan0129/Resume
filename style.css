@@ -1,0 +1,358 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent),
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+    url(/image/pexels-roberto-nickson-7238759.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  color: #f5f1f1;
+}
+
+/* INDEX*/
+header {
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px;
+}
+nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+.navitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 60px;
+}
+.navitemz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.navitems {
+  position: relative;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.active {
+  color: orange;
+  text-shadow: 0 0 10px #5a5652, 0 0 20px#706a63, 0 0 30px#5f5c58;
+}
+.navitems.active::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: orange;
+}
+
+.cdwd {
+  height: 95px;
+}
+
+.chris {
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.delima {
+  font-size: 85px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.delima:hover {
+  transition: color 5s, opacity 5s; /* Add opacity transition */
+  color: orange;
+  opacity: 0; /* Initially set opacity to 0 */
+}
+
+.delima:hover:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+}
+
+.wd {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-left: 5px;
+  font-weight: 800;
+  letter-spacing: 18px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+.bio {
+  margin-top: 120px;
+  line-height: 50px;
+  flex-grow: 1;
+  margin-left: 100px;
+}
+.buttonz {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.button-rp {
+  padding: 10px 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
+  font-style: inherit;
+  color: #ecf0f1;
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: #ecf0f1;
+  border-style: solid;
+}
+.button-rp:hover {
+  color: orange;
+  border-color: orange;
+  transition-duration: 5ms;
+  box-shadow: 0 0 10px #f5a30a, 0 0 20px#111110, 0 0 30px#f5a30a;
+}
+
+.svg-iconnav {
+  fill: #ecf0f1;
+}
+.svg-icon {
+  margin-top: 50px;
+  fill: #fff;
+  margin-right: 30px;
+}
+.svg-icon:hover {
+  fill: orange;
+}
+
+.contact {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+/* END OF INDEX*/
+/* ABOUT*/
+.about {
+  display: block;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.aboutw {
+  font-size: 32px;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  line-height: 20px;
+  text-underline-offset: 0.3em;
+
+  text-decoration-skip: none;
+}
+.descriptionofme {
+  font-size: 16px;
+  font-weight: 100;
+}
+.emailko {
+  margin-bottom: 30px;
+}
+.email {
+  margin-top: 140px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 700px;
+}
+.descriptionofme {
+}
+/* END OF ABOUT*/
+/* RESUME*/
+.resume-section {
+  display: flex;
+
+  justify-content: center;
+  gap: 40px;
+}
+.highlight {
+  background-color: #272727;
+  border-radius: 10px;
+}
+
+.forward {
+  margin-left: 200px;
+}
+.amr {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  line-height: 30px;
+}
+.whoiam {
+  color: #f5a30a;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.aboutmyresume {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.r-container {
+  margin-top: 30px;
+  font-size: medium;
+  width: 700px;
+}
+.hi {
+  margin-left: 30px;
+}
+.sk {
+  line-height: 40px;
+  font-size: 16px;
+  text-decoration: dotted;
+  margin-left: 10px;
+  font-weight: 600;
+
+  text-transform: capitalize;
+}
+pre {
+  font-family: "Poppins", sans-serif;
+}
+.pictureko {
+  border-radius: 50%;
+  margin-left: 150px;
+  width: 300px;
+}
+.resume-section,
+.h1 {
+  text-transform: uppercase;
+}
+.resume-section,
+.li {
+  font-size: 10px;
+}
+/* END OF RESUME*/
+
+/*WORKS*/
+#game-main {
+  margin-top: 20px;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.works {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+}
+.container-works {
+  width: 250px;
+  height: 300px;
+  background-color: rgba(119, 118, 118, 0.5);
+  text-align: center;
+
+  border-width: 1px;
+  border-color: #ecf0f1;
+  border-radius: 10px;
+}
+#game-icon {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#game-title {
+  margin-top: 30px;
+  color: #111110;
+}
+#play-button {
+  padding: 10px 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: inherit;
+  color: #ecf0f1;
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: #ecf0f1;
+  border-style: solid;
+}
+#play-button:hover {
+  color: orange;
+  border-color: orange;
+  transition-duration: 5ms;
+  box-shadow: 0 0 10px #f5a30a, 0 0 20px#111110, 0 0 30px#f5a30a;
+}
+/*END OF WORKS*/
+/* Media Queries for Responsiveness */
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    /* Your tablet header styles here */
+  }
+
+  .navitem {
+    /* Your tablet navigation styles here */
+  }
+
+  .bio {
+    /* Adjust the margin or font-size for smaller screens */
+    margin-left: 50px;
+  }
+
+  /* Add other tablet-specific styles as needed */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  header {
+    /* Your mobile header styles here */
+  }
+
+  .navitem {
+    /* Your mobile navigation styles here */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navitemz {
+    /* Adjust styles for the contact section on mobile */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .bio {
+    /* Adjust the margin or font-size for smaller screens */
+    margin-left: 20px;
+  }
+
+  /* Add other mobile-specific styles as needed */
+}
